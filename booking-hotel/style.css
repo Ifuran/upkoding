@@ -1,0 +1,119 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	background-image: linear-gradient(125deg, rgba(0,5,51,0.87718837535014) 25%, rgba(0,5,51,0.8435749299719888) 100%), url(https://img.freepik.com/free-photo/beautiful-luxury-outdoor-swimming-pool-hotel-resort_74190-7433.jpg?t=st=1645360712~exp=1645361312~hmac=fc77984effa15dca93cd941057f627be0b0163af1a6a5db0dd55a792266fcf11&w=740);
+	background-size: cover;
+	font-size: 14px;
+}
+
+#wrapper {
+	background-color: #E8ECF0;	
+	width: 450px;		
+	border-radius: 10px;
+	margin: 0 auto;		
+}
+
+#wrapper form {
+	padding: 20px;
+	margin-top: 100px;
+}
+
+form input {
+	padding: 20px 10px;	
+	width: 100%;
+	box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.08);
+	font-size: 1.3em;
+	border: none;
+	color: #000;
+}
+
+input[name="location"] {
+	border-radius: 5px;
+}
+
+#checkIn, #room {
+	border-radius: 5px 0 0 5px;
+}
+
+#checkOut, #kids {
+	border-radius: 0 5px 5px 0;
+}
+.inp {
+	margin: 20px 0 0 0;	
+}
+
+.inp label {
+	display: block;
+	color: #00000080;
+	margin: 10px;
+	font-size: 1em;
+}
+
+.dates {
+	display: flex;
+}
+
+.dates .date {
+	width: 50%;
+}
+
+.infos {
+	display: flex;
+}
+
+#return {
+	background-color: #FF455B;
+	width: 375px;
+	color: #fff;
+	margin: 0 auto;
+	text-align: center;	
+	border-radius: 5px;
+}
+
+#return p {
+	padding: 20px;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+/* ------- Responsive ------- */
+
+@media only screen and (max-width: 600px) {
+	#wrapper {
+		background-color: transparent;
+	}
+
+	#wrapper form {
+		
+	}
+
+	.inp label,
+	h1 {
+		color: #fff;
+	}
+
+	#return {
+		width: 410px;
+		/*width: 100%;*/
+		/*margin: 18px;*/
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------End-------------*/
+

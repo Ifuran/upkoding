@@ -1,0 +1,158 @@
+* {
+	box-sizing: border-box;	
+	font-family: sans-serif;
+}
+#rectangle {
+	width: 200px;
+	height: 100px;
+	background-color: #fff;
+	opacity: 3%;
+	z-index: 10;
+	border-radius: 150px 0 0px 200px;
+	position: absolute;
+	top: 0;
+	right: 60%;
+}
+#rectangle2 {
+	width: 400px;
+	height: 100px;
+	background-color: #fff;
+	opacity: 3%;
+	z-index: 1;
+	border-radius: 200px 0 0px 200px;
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	transform: rotate(180deg);
+}
+#deskripsi {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40%;
+	height: 657px;
+	background-color: #21206C;
+}
+#logo {
+	position: absolute;
+	width: 102px;
+	height: 39px;
+	left: 69px;
+	top: 74px;
+}
+#logo:after {
+	content: "Near";	
+	color: white;
+	margin-left: 5px;
+	font-weight: bold;
+	position: relative;
+	top: -10px;	
+}
+#desc {
+	position: absolute;
+	width: 380px;
+	left: 69px;
+	top: 220px;
+	color: white;
+}
+#desc h2 {
+	font-size: 26px;
+}
+#desc p {
+	width: 250px;
+	color: #808080;
+}
+.line img {
+	width: 35px;
+	height: 4px;
+	border-radius: 2px;
+	margin-right: 10px;	
+}
+.sosmed img {
+	height: 15px;
+	margin: 35px 25px 0 0;
+}
+#footer {
+	position: absolute;
+	left: 69px;
+	bottom: 50px;
+	z-index: 10;
+}
+#footer a {
+	text-decoration: none;
+	color: white;
+	font-size: 14px;	
+	margin-right: 25px;	
+}
+section {
+	position:  absolute;
+	left: 200px;
+	top: 125px;
+}
+#form {
+	background-color: white;
+	position: absolute;
+	top: 0;	
+	right: 0;
+	left: 40%;
+	height: 657px;
+}
+section h2 {
+	font-size: 28px;
+	margin: 0;
+}
+.text-form {
+	margin-top: 5px;
+	margin-bottom: 25px;
+	font-size: 14px;
+	color: #808080;
+}
+form {
+	font-size: 14px;		
+}
+label {
+	font-weight: bold;	
+	color: #364962;
+}
+#email, #password {
+	margin: 10px 0;
+	width: 450px;
+	height: 45px;
+	color: #808080;
+	border: none;	
+	box-shadow: 1px 1px 0px 2px #e6e6e6;
+}
+#agree {
+	font-size: 14px;	
+	margin-top: 10px;	
+	margin-left: -5px;
+}
+#forget-pass {
+	display: inline;
+	float: right;
+	margin-top: 5px;	
+	font-weight: bold;	
+	color: #21206C;
+}
+form a {
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+button {
+	display: block;
+	width: 450px;
+	height: 45px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+#submit-btn {
+	background-color:  #21206C;
+	color: white;
+	border: none;
+}
+#submit-btn2 {
+	color: #808080;
+	background-color: #fff;
+	border: none;	
+	box-shadow: 1px 1px 0px 2px #e6e6e6;
+}

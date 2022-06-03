@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Segitiga Piramid</title>
+</head>
+<style type="text/css">
+	* {		
+		font-family: sans-serif;			
+	}
+
+	#wrapper {
+		width: 450px;		
+		margin: 0 auto;						
+		font-size: 20px;		
+		text-align: center;
+		background-color: grey;		
+	}
+
+	label {	
+		display: block;
+		margin-top: 50px;		
+	}
+	
+	#wrapper input	{
+		margin: 25px 0 0 0;		
+		padding: 15px;
+		width: 50px;
+		font-size: 24px;		
+		margin-left: 40%;			
+		display: block;	
+	}
+	
+	#wrapper .btn {		
+		font-size: 14px;			
+		width: 85px;
+		margin-bottom: 50px;
+	}
+
+	#output {
+		background-color: grey;		
+	}
+
+
+</style>
+<body>
+	<div id="wrapper">
+		<label for="baris">Jumlah Baris</label>
+		<input type="number" id="baris">		
+		<input type="submit" onclick="hasil()" value="SUBMIT" class="btn">
+		<div id="output">
+
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript">	
+	function hasil() {
+		var baris = document.getElementById("baris").value;		
+		// document.getElementById("output").innerHTML = piramid;
+		for (var i = 0; i <= baris; i++) {
+			document.wrire("*");			
+		}
+		
+	}			
+				
+</script>
+</html>

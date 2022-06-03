@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form Booking Hotel</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Dibuat oleh Ifran Silalahi -->
+
+</head>
+<body>
+	<div id="wrapper">
+		<form>
+			<h1>Hotel Booking</h1>
+			<div class="inp location">
+				<label for="location">Location</label>
+				<input type="text" name="location" placeholder="Moscow">
+			</div>
+			<div class="inp dates">
+				<div class="date">
+					<label for="checkIn">Check In</label>					
+					<input type="text" id="checkIn" placeholder="Wed, 14 Jun" onfocus="(this.type='date')" onblur="(this.type='text')">
+				</div>
+				<div class="date">
+					<label for="checkOut">Check Out</label>					
+					<input type="text" id="checkOut" placeholder="Sun, 17 Jun" onfocus="(this.type='date')" onblur="(this.type='text')">
+				</div>
+			</div>
+			<div class="inp infos">
+				<div class="info">
+				<label for="room">Room</label>
+				<input type="number" name="room" id="room" placeholder="1">
+			</div>
+			<div class="info">
+				<label for="adults">Adults</label>
+				<input type="number" name="adults" placeholder="2">
+			</div>
+			<div class="info">
+				<label for="kids">Kids</label>
+				<input type="number" name="kids" id="kids" placeholder="0">
+			</div>
+			</div>			
+		</form>
+	</div>
+	<div id="return">
+		<p>Show 389 properties</p>
+	</div>
+
+</body>
+</html>
